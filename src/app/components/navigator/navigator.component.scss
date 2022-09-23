@@ -2,14 +2,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 200px;
+  padding-top: 50px;
   font-family: "Helvetica Neue", sans-serif;
 
   .tab {
     display: flex;
     flex-direction: column;
     border: 1px solid wheat;
-    box-shadow: 5px 6px 2px 1px rgba(19, 19, 28, 0.76);
+    -webkit-box-shadow: 14px 12px 15px -1px rgba(17, 18, 18, 0.6);
+    -moz-box-shadow: 14px 12px 15px -1px rgba(17, 18, 18, 0.6);
+    box-shadow: 14px 12px 15px -1px rgba(17, 18, 18, 0.6);
     background: rgba(218, 236, 222, 0.87);
     border-radius: 10px;
     width: 370px;
@@ -64,13 +66,15 @@
 
   .exit-btn-container {
     position: relative;
-    top: -240px;
+    top: -365px;
     margin-left: 10px;
 
     .btn-navigate-exit {
       background: #068383;
-      border: 1px solid rgb(235, 237, 241);
-      box-shadow: 3px 4px 2px 1px rgba(19, 19, 28, 0.76);
+      border: 1px solid rgba(235, 237, 241, 0.7);
+      -webkit-box-shadow: 14px 12px 15px -1px rgba(17, 18, 18, 0.6);
+      -moz-box-shadow: 14px 12px 15px -1px rgba(17, 18, 18, 0.6);
+      box-shadow: 14px 12px 15px -1px rgba(17, 18, 18, 0.6);
       border-radius: 50%;
       color: #ebedf1;
       font-weight: bold;

@@ -24,21 +24,23 @@
     border: 1px solid rgb(235, 237, 241);
     border-radius: 10px;
     min-width: 600px;
-    background: rgba(218, 236, 222, 0.87);
+    background: rgba(218, 236, 222, 0.53);
     margin-bottom: 5px;
 
 
     .title-box {
       display: flex;
-      //border: 1px solid rgb(255, 153, 0);
+      border: 1px solid rgba(43, 57, 69, 0.2);
       flex-direction: column;
       justify-content: center;
       align-items: center;
       margin: 15px 4px 15px 3px;
       padding: 10px;
       font-size: 1rem;
-      background: rgba(56, 91, 122, 0.3);
-      box-shadow: -11px -11px 0px -3px rgba(70, 70, 79, 0.76);
+      background: rgba(56, 91, 122, 0.4);
+      -webkit-box-shadow: -5px -8px 15px -1px rgba(17, 18, 18, 0.6);
+      -moz-box-shadow: -5px -8px 15px -1px rgba(17, 18, 18, 0.6);
+      box-shadow: -5px -8px 15px -1px rgba(17, 18, 18, 0.6);
       border-radius: 15px;
 
       h3 {
@@ -62,7 +64,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    background: rgba(218, 236, 222, 0.87);
+    background: rgba(218, 236, 222, 0.53);
     border: 1px solid rgb(235, 237, 241);
     border-radius: 10px;
 
@@ -74,12 +76,14 @@
       position: relative;
       margin: 5px 45px;
       padding: 5px 4px;
-      //border: 1px solid rgb(235, 237, 241);
+      border: 1px solid rgba(43, 57, 69, 0.2);
       min-width: 200px;
       min-height: 160px;
       border-radius: 10px;
-      background: rgba(56, 91, 122, 0.3);
-      box-shadow: -11px -11px 0px -3px rgba(70, 70, 79, 0.76);
+      background: rgba(56, 91, 122, 0.6);
+      -webkit-box-shadow: -5px -8px 15px -1px rgba(17, 18, 18, 0.6);
+      -moz-box-shadow: -5px -8px 15px -1px rgba(17, 18, 18, 0.6);
+      box-shadow: -5px -8px 15px -1px rgba(17, 18, 18, 0.6);
 
       .card-item {
         text-align: center;
