@@ -31,25 +31,26 @@
         margin-bottom: 5px;
         padding: 4px;
       }
-
     }
 
     .tab-header {
       //display: flex;
       //height: 90%;
       justify-content: center;
-      background:  #068383;
+      background: #068383;
       opacity: 0.85;
       color: rgb(235, 237, 241);
+
       th {
         margin: 5px;
         font-size: 14px;
-        background:  #068383;
+        background: #068383;
         border-radius: 5px;
       }
     }
   }
-  .tab-body{
+
+  .tab-body {
     text-align: center;
     background: rgba(96, 92, 89, 0.37);
     border-radius: 5px;
@@ -62,7 +63,7 @@
     margin-left: 10px;
 
     .btn-navigate-exit {
-      background:  #068383;
+      background: #068383;
       border: 1px solid rgb(235, 237, 241);
       box-shadow: 3px 4px 2px 1px rgba(19, 19, 28, 0.76);
       border-radius: 50%;
