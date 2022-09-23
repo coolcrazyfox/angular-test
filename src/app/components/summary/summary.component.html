@@ -18,23 +18,42 @@
 
   <div class="cards">
     <div class="card">
-      <div>{{dataService.getOnly(0).length}}</div>
-      <div>Income</div>
+      <div class="card-item">
+        <h3>
+          {{dataService.getOnly(0).length}}
+        </h3>
+        <div>Income</div>
+      </div>
+
       <button (click)=navigateService.navigateTo(0)>See all</button>
     </div>
     <div class="card">
-      <div>{{dataService.getOnly(1).length}}</div>
-      <div>Investments</div>
+      <div class="card-item">
+        <h3>
+          {{dataService.getOnly(1).length}}
+        </h3>
+        <div>Investments</div>
+      </div>
+
       <button (click)=navigateService.navigateTo(1)>See all</button>
     </div>
     <div class="card">
-      <div>{{dataService.getOnly(2).length}}</div>
-      <div>Outcome</div>
+      <div class="card-item">
+        <h3>
+          {{dataService.getOnly(2).length}}
+        </h3>
+        <div>Outcome</div>
+      </div>
+
       <button (click)=navigateService.navigateTo(2)>See all</button>
     </div>
     <div class="card">
-      <div>{{dataService.getOnly(3).length}}</div>
-      <div>Loans</div>
+      <div class="card-item">
+        <h3>
+          {{dataService.getOnly(3).length}}
+        </h3>
+        <div>Loans</div>
+      </div>
       <button (click)=navigateService.navigateTo(3)>See all</button>
     </div>
   </div>

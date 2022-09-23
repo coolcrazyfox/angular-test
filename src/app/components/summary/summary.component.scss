@@ -12,7 +12,7 @@
     color: aliceblue;
     border-radius: 5px;
     margin-bottom: 5px;
-    padding: 4px;
+    padding: 10px;
   }
 
   .welcome {
@@ -60,19 +60,30 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    background: rgba(218, 236, 222, 0.67);
+    background: rgba(218, 236, 222, 0.87);
+    border: 1px solid rgb(235, 237, 241);
+    border-radius: 10px;
 
     .card {
-      margin-top: 20px;
-      padding-top: 50px;
-      border: 1px solid rgb(235, 237, 241);
-      width: 280px;
-      height: 180px;
-      border-radius: 10px;
       display: flex;
       flex-direction: column;
       justify-content: space-around;
       align-items: center;
+      position: relative;
+      margin: 5px 45px;
+      padding: 5px 4px;
+      //border: 1px solid rgb(235, 237, 241);
+      min-width: 200px;
+      min-height: 160px;
+      border-radius: 10px;
+      background: rgba(56, 91, 122, 0.3);
+      box-shadow: -11px -11px 0px -3px rgba(70, 70, 79, 0.76);
+
+      .card-item {
+        text-align: center;
+        color: #034d4d;
+      }
+
     }
   }
 
