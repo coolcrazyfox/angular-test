@@ -1,13 +1,19 @@
 <div class="summary">
   <div class="welcome">
-    <h2>
-      Welcome
-    </h2>
-    <p>With supporting text below as a natural lead-in to additional content.</p>
+    <div>
+      <h3>
+        Welcome
+      </h3>
+      <p>With supporting text below as a natural lead-in to additional content.</p>
 
-    <button (click)=navigateService.navigateTo(0)>See transaction</button>
-    {{dataService.allCount}}
+      <button (click)=navigateService.navigateTo(0)>See transaction</button>
+
+      <div><h3>You have {{dataService.allCount}} transactions</h3></div>
+
+    </div>
+
   </div>
+
   <div class="cards">
     <div class="card">
       <div>{{dataService.getOnly(0).length}}</div>
