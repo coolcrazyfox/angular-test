@@ -5,6 +5,16 @@
   justify-content: center;
   align-items: center;
 
+  button {
+    font-size: 14px;
+    background-color: #068383;
+    border: 1px solid #056767;
+    color: aliceblue;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    padding: 4px;
+  }
+
   .welcome {
     display: flex;
     flex-direction: column;
@@ -13,8 +23,8 @@
     border: 1px solid rgb(235, 237, 241);
     border-radius: 10px;
     min-width: 600px;
-    padding: 0;
     background: rgba(218, 236, 222, 0.87);
+
 
     .title-box {
       display: flex;
@@ -25,13 +35,19 @@
       margin: 15px 4px 15px 3px;
       padding: 10px;
       font-size: 1rem;
-      background: rgba(43, 57, 69, 0.3);
+      background: rgba(56, 91, 122, 0.3);
+      box-shadow: -11px -11px 0px -3px rgba(70, 70, 79, 0.76);
+      border-radius: 15px;
 
       h3 {
         color: #056767;
-        border-bottom: 1px solid #056767;
-        background: wheat;
+        background: rgba(245, 222, 179, 0.4);
         padding: 10px;
+        border-radius: 15px;
+      }
+
+      p {
+        color: #0d1e3a;
       }
     }
 
