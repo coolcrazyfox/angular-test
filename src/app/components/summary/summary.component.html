@@ -1,6 +1,6 @@
 <div class="summary">
   <div class="welcome">
-    <div>
+    <div class="title-box">
       <h3>
         Welcome
       </h3>
@@ -8,7 +8,9 @@
 
       <button (click)=navigateService.navigateTo(0)>See transaction</button>
 
-      <div><h3>You have {{dataService.allCount}} transactions</h3></div>
+      <div>
+        <h3>You have {{dataService.allCount}} transactions</h3>
+      </div>
 
     </div>
 
