@@ -18,13 +18,21 @@
 
     .title-box {
       display: flex;
-      border: 1px solid rgb(255, 153, 0);
+      //border: 1px solid rgb(255, 153, 0);
       flex-direction: column;
       justify-content: center;
       align-items: center;
       margin: 15px 4px 15px 3px;
-      padding: 0;
+      padding: 10px;
       font-size: 1rem;
+      background: rgba(43, 57, 69, 0.3);
+
+      h3 {
+        color: #056767;
+        border-bottom: 1px solid #056767;
+        background: wheat;
+        padding: 10px;
+      }
     }
 
   }
