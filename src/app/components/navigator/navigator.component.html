@@ -1,0 +1,29 @@
+<form class="tab-form">
+  <div class="tab">
+    <div class="button-tab">
+      <button (click)=navigateService.navigateTo(0) class="btn-navigate">Income</button>
+      <button (click)=navigateService.navigateTo(1) class="btn-navigate">Outcome</button>
+      <button (click)=navigateService.navigateTo(2) class="btn-navigate">Loans</button>
+      <button (click)=navigateService.navigateTo(3) class="btn-navigate">Investments</button>
+    </div>
+    <table>
+      <thead class="tab-header">
+      <tr>
+        <th>Name</th>
+        <th>Account</th>
+      </tr>
+      </thead>
+      <tbody *ngFor="let d of navigatorData" class="tab-body">
+      <tr>
+        <td>{{d.name.first}}{{d.name.last}}</td>
+        <td>{{d.address.split(',')[3]}}</td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="exit-btn-container">
+    <button class="btn-navigate-exit" routerLink="">x</button>
+  </div>
+
+
+</form>

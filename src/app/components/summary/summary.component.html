@@ -1,0 +1,30 @@
+<div class="summary">
+  <div class="welcome">
+    Welcome
+    bla-bla- bla-bla- bla-bla- bla-bla
+    <button (click)=navigateService.navigateTo(0)>See transaction</button>
+    {{dataService.allCount}}
+  </div>
+  <div class="cards">
+    <div class="card">
+      <div>{{dataService.getOnly(0).length}}</div>
+      <div>Income</div>
+      <button (click)=navigateService.navigateTo(0)>See all</button>
+    </div>
+    <div class="card">
+      <div>{{dataService.getOnly(1).length}}</div>
+      <div>Investments</div>
+      <button (click)=navigateService.navigateTo(1)>See all</button>
+    </div>
+    <div class="card">
+      <div>{{dataService.getOnly(2).length}}</div>
+      <div>Outcome</div>
+      <button (click)=navigateService.navigateTo(2)>See all</button>
+    </div>
+    <div class="card">
+      <div>{{dataService.getOnly(3).length}}</div>
+      <div>Loans</div>
+      <button (click)=navigateService.navigateTo(3)>See all</button>
+    </div>
+  </div>
+</div>
