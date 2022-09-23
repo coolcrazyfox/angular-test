@@ -1,4 +1,4 @@
-<div class="summary">
+<form class="summary">
   <div class="welcome">
     <div class="title-box">
       <h3>
@@ -6,7 +6,7 @@
       </h3>
       <p>With supporting text below as a natural lead-in to additional content.</p>
 
-      <button (click)=navigateService.navigateTo(0)>See transaction</button>
+      <button (click)=navigateService.navigateTo(0) class="btn">See transaction</button>
 
       <div>
         <h3>You have {{dataService.allCount}} transactions</h3>
@@ -25,7 +25,7 @@
         <div>Income</div>
       </div>
 
-      <button (click)=navigateService.navigateTo(0)>See all</button>
+      <button (click)=navigateService.navigateTo(0) class="btn">See all</button>
     </div>
     <div class="card">
       <div class="card-item">
@@ -35,7 +35,7 @@
         <div>Investments</div>
       </div>
 
-      <button (click)=navigateService.navigateTo(1)>See all</button>
+      <button (click)=navigateService.navigateTo(1) class="btn">See all</button>
     </div>
     <div class="card">
       <div class="card-item">
@@ -45,7 +45,7 @@
         <div>Outcome</div>
       </div>
 
-      <button (click)=navigateService.navigateTo(2)>See all</button>
+      <button (click)=navigateService.navigateTo(2) class="btn">See all</button>
     </div>
     <div class="card">
       <div class="card-item">
@@ -54,7 +54,7 @@
         </h3>
         <div>Loans</div>
       </div>
-      <button (click)=navigateService.navigateTo(3)>See all</button>
+      <button (click)=navigateService.navigateTo(3) class="btn">See all</button>
     </div>
   </div>
-</div>
+</form>

@@ -66,6 +66,11 @@
         text-shadow: 1px 1px 2px #074949;
       }
 
+      .btn-navigate:active, .btn-navigate-exit:active {
+        color: #ebedf1;
+        background: #d95e5e;
+      }
+
 
     }
 
@@ -75,7 +80,6 @@
       background: #068383;
       opacity: 0.85;
       color: rgb(235, 237, 241);
-
       th {
         margin: 5px;
         font-size: 14px;

@@ -6,7 +6,7 @@
   justify-content: center;
   align-items: center;
 
-  button {
+  .btn {
     font-size: 14px;
     background-color: #068383;
     color: aliceblue;
@@ -24,12 +24,17 @@
 
   }
 
-  button:hover {
+  .btn:hover {
     border: 1px solid;
     box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
     outline-color: rgba(255, 255, 255, 0);
     outline-offset: 15px;
     text-shadow: 1px 1px 2px #074949;
+  }
+
+  .btn:active {
+    color: #ebedf1;
+    background: #d95e5e;
   }
 
   .welcome {
@@ -104,6 +109,10 @@
       .card-item {
         text-align: center;
         color: #034d4d;
+
+        h3 {
+          color: #0d1e3a;
+        }
       }
 
     }
